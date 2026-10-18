@@ -8,7 +8,7 @@ from torch.utils.data import Dataset
 import nibabel as nib
 
 from .ct_io import preprocess_ct
-from ..config import IMG_SIZE
+from config import IMG_SIZE
 
 
 class NCCTClinicalDataset(Dataset):

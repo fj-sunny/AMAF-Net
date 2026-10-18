@@ -7,7 +7,7 @@ from typing import Dict, List, Tuple, Any
 
 import numpy as np
 
-from ..config import IMG_SIZE
+from config import IMG_SIZE
 
 
 _SUFFIX_PATTERN = re.compile(r"_(NC|PC|AP|VP|DP|EN|EX|PLAIN|PA|PV|\d+)$", re.IGNORECASE)

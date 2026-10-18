@@ -2,9 +2,9 @@
 amaf_net.utils
 
 工具子模块：
-- data: CT + 临床数据加载、预处理与 5-fold 划分（封装原脚本）
-- metrics: 指标计算（AUC、Macro-F1、Acc、BAcc、ECE、Brier、NLL 等）
-- losses: 交叉熵、FocalLoss、ProCo 等损失的统一入口
+- data: CT + 临床数据加载、预处理与 5-fold 划分
+- metrics: AUC、Macro-F1、Acc、BAcc、ECE、Brier、NLL
+- losses: 交叉熵、FocalLoss、ProbabilisticContrastiveLoss
 """
 
 from . import data  # noqa: F401

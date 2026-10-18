@@ -2,8 +2,7 @@
 影像与临床 Backbones 定义
 
 说明：
-- 为保持与现有训练/评估脚本兼容，这里的大部分 3D ResNet / 临床编码器直接从
-  `train_missing_aware_fusion.py` 导入并做轻量封装。
+- 3D ResNet 与临床编码器来自本包的 resnet3d / clinical_encoders。
 - 额外实现论文表中的若干基线模型：
   - Image-only: 3D ResNet18, 3D U-Net, Image ViT
   - Clinical-only: MLP, MLP+Missingness, FT-Transformer 风格编码器
